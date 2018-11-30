@@ -24,8 +24,9 @@ NOTE: FILL OUT THE HEROKU_APP_NAME values below - otherwise this page WILL NOT L
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+    <!--
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+    -->
     <style>
         html{
             background-color: white !important;
@@ -55,23 +56,25 @@ NOTE: FILL OUT THE HEROKU_APP_NAME values below - otherwise this page WILL NOT L
                     <img src="/icon-40.png" />
                 </div>
                 <div class="slds-col slds-size_11-of-12 slds-p-top_small">
-                    <div class="slds-text-heading_large">DMP Audience
+                    <div class="slds-text-heading_medium">DMP Audience
                 </div>
                 <div class="slds-col slds-size_1-of-1 slds-p-top_small slds-p-left_none">
-                        <div class="slds-text-body_regular">This Advertising Audience will be created when this activity is saved. Lookalike Audiences, Refresh Settings, and Email Notifications can be modified from within Advertising Audiences after this audience is created.</div>
+                        <div class="slds-text-body_regular">
+                            This will add the customer to a real-time DMP audience for media/ad execution. 
+                        </div>
                 </div>
 
                 <!--form-->
                 <div class="slds-form-element slds-p-top_medium">
-                        <label class="slds-form-element__label slds-text-heading_medium" for="text-input-id-1">
+                        <label class="slds-form-element__label" for="text-input-id-1">
                           <span class="slds-required" title="required">* </span>Audience Name</label>
                         <div class="slds-form-element__control">
-                          <input id="text-input-id-1" required="" class="slds-input" type="text" value="" placeholder="Enter an audience name..." />
+                          <input id="text-input-id-1" required="" class="slds-input" type="text" value="" placeholder="Enter an audience name..."  />
                         </div>
                       </div>
                 
                 <div class="slds-form-element slds-p-top_medium">
-                        <label class="slds-form-element__label slds-text-heading_medium" for="text-input-id-1">
+                        <label class="slds-form-element__label" for="text-input-id-1">
                           Description</label>
                         <div class="slds-form-element__control">
                                 <textarea id="textarea-id-01" class="slds-textarea" placeholder="Write something..."></textarea>
@@ -79,7 +82,7 @@ NOTE: FILL OUT THE HEROKU_APP_NAME values below - otherwise this page WILL NOT L
                       </div>
 
                       <div class="slds-form-element slds-p-top_medium">
-                            <label class="slds-form-element__label slds-text-heading_medium" for="text-input-id-1">
+                            <label class="slds-form-element__label" for="text-input-id-1">
                               Add Customer to DMP Audience:</label>
                             <div class="slds-form-element__control">
                                     <div class="slds-form-element__control">
